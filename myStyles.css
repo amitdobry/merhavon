@@ -1,0 +1,43 @@
+.frag {
+    fill: #1fc21954;
+    stroke: #ffffff9a;
+    transition: fill 0.3s;
+  }
+  .center {
+    fill: #00800062;
+  }
+  a:hover .frag {
+    fill: #82cf3ac2;
+  }
+  text {
+    font-size: 17px;
+    fill: #ffffff80;
+  }
+
+  body {
+    display: grid;
+    justify-content: center;
+    background: url(./images/zoobackgrond.jpg);
+  }
+
+  h1 {
+    font-family: "Amatic SC", cursive;
+    font-size: 50px;
+    background-color: darkseagreen;
+  }
+  h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    background-color: darkseagreen;
+  }
+
+  .divmid {
+    display: flex;
+    justify-content: center;
+  }
